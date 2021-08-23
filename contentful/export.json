@@ -57,8 +57,7 @@
           "type": "Symbol",
           "localized": false,
           "required": true,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -100,9 +99,7 @@
           "required": true,
           "validations": [
             {
-              "linkMimetypeGroup": [
-                "image"
-              ]
+              "linkMimetypeGroup": ["image"]
             }
           ],
           "disabled": false,
@@ -115,8 +112,7 @@
           "type": "Text",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -126,17 +122,14 @@
           "type": "Array",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false,
           "items": {
             "type": "Link",
             "validations": [
               {
-                "linkMimetypeGroup": [
-                  "image"
-                ]
+                "linkMimetypeGroup": ["image"]
               },
               {
                 "assetImageDimensions": {
@@ -160,8 +153,7 @@
           "type": "Symbol",
           "localized": false,
           "required": false,
-          "validations": [
-          ],
+          "validations": [],
           "disabled": false,
           "omitted": false
         },
@@ -185,9 +177,7 @@
             "type": "Link",
             "validations": [
               {
-                "linkContentType": [
-                  "portfolio"
-                ]
+                "linkContentType": ["portfolio"]
               }
             ],
             "linkType": "Entry"
@@ -1164,8 +1154,6 @@
       }
     }
   ],
-  "webhooks": [
-  ],
-  "roles": [
-  ]
+  "webhooks": [],
+  "roles": []
 }

@@ -16,41 +16,44 @@ const AboutPage = ({ data }) => (
               About me
             </h1>
             <h2 className="text-xl leading-tight font-semibold tracking-tight text-blue-600 sm:text-2xl">
-            Hello, I'm Mayur.
+              Hello, I'm Mayur.
             </h2>
             <div className="mt-4 leading-loose">
-
-I'm an aspiring entrepreneur who's currently working as a sales manager at Zerodha. Entrepreneurship and financial markets are two things I am passionate about.
-
-During the course of my school years, I was an average student academically. I watched many Patric Bet David videos on YouTube that inspired me to be an entrepreneur.
- <br />
- <br />
-For that reason, I enrolled in Commerce college in my hometown (Dharwad) after completing my high school.
-
-Three months later, I dropped out of college because they didn't emphasize entrepreneurship, and I began learning business by working in a cafe. I was fortunate that my parents were supportive.
-
-Attending entrepreneurship events (TIEcon hubli, Sandbox startups etc) was also something I did to meet people and learn.
-
-Here are some pictures :
-<br />
-<br />
-A recommendation from my elder sister led me to discover stock markets at the age of 16, where I began virtual trading.
-
-The year I turned 18, I opened my first trading account at Zerodha and began my journey in the stock market.
-
-Back then I aspired to become one of the legendary investors and traders like Ray Dalio, Nithin Kamath and many others.
-
-More about my trading journey here (Link)
-<br />
-<br />
-
-My trading career was not successful, so I decided to become a stock broker at India's largest brokerage company Zerodha.
-
-Luckily I got the job at Zerodha because of my knowledge and passion for stock markets.
-
-Also, I created the social media brand BTI, which had more than 40,000 Organic Followers on major social media platforms. My goal was to make it similar to Moneycontrol's website, but I later opted to stop and focus on trading full-time.
-
-This is my journey up to now.
+              I'm an aspiring entrepreneur who's currently working as a sales
+              manager at Zerodha. Entrepreneurship and financial markets are two
+              things I am passionate about. During the course of my school
+              years, I was an average student academically. I watched many
+              Patric Bet David videos on YouTube that inspired me to be an
+              entrepreneur.
+              <br />
+              <br />
+              For that reason, I enrolled in Commerce college in my hometown
+              (Dharwad) after completing my high school. Three months later, I
+              dropped out of college because they didn't emphasize
+              entrepreneurship, and I began learning business by working in a
+              cafe. I was fortunate that my parents were supportive. Attending
+              entrepreneurship events (TIEcon hubli, Sandbox startups etc) was
+              also something I did to meet people and learn. Here are some
+              pictures :
+              <br />
+              <br />
+              A recommendation from my elder sister led me to discover stock
+              markets at the age of 16, where I began virtual trading. The year
+              I turned 18, I opened my first trading account at Zerodha and
+              began my journey in the stock market. Back then I aspired to
+              become one of the legendary investors and traders like Ray Dalio,
+              Nithin Kamath and many others. More about my trading journey here
+              (Link)
+              <br />
+              <br />
+              My trading career was not successful, so I decided to become a
+              stock broker at India's largest brokerage company Zerodha. Luckily
+              I got the job at Zerodha because of my knowledge and passion for
+              stock markets. Also, I created the social media brand BTI, which
+              had more than 40,000 Organic Followers on major social media
+              platforms. My goal was to make it similar to Moneycontrol's
+              website, but I later opted to stop and focus on trading full-time.
+              This is my journey up to now.
               <br />
               <br />
               I'm happy to hear from you:
@@ -66,7 +69,7 @@ This is my journey up to now.
           <div className="w-full md:w-1/2 xl:w-2/5 md:pl-12">
             <Img
               fluid={data.author.childImageSharp.fluid}
-              alt="John Doe"
+              alt="Mayur"
               className="rounded-md shadow-md"
             />
           </div>
