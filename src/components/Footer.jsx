@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
-import { FaFacebook, FaInstagram, FaTwitter, FaPinterest } from "react-icons/fa"
+import { FaFacebook, FaInstagram, FaTwitter, FaPinterest, FaLinkedin } from "react-icons/fa"
 
 const Footer = () => {
   const {
@@ -27,6 +27,8 @@ const Footer = () => {
       <ul className="flex justify-center md:order-2">
         <FooterLink href={links.twitter} icon={FaTwitter} label="Twitter" />
         <FooterLink href={links.facebook} icon={FaFacebook} label="Facebook" />
+        <FooterLink href={links.linkedin} icon={FaLinkedin} label="LinkedIn" />
+
         <FooterLink
           href={links.instagram}
           icon={FaInstagram}

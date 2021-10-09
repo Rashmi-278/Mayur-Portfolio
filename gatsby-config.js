@@ -12,13 +12,14 @@ module.exports = {
   siteMetadata: {
     menu: [
       { name: "Home", to: "/" },
-      { name: "About", to: "/about" },
+      { name: "Blog", to: "/blog" },
     ],
     links: {
       facebook: "https://www.facebook.com/",
       instagram: "https://www.instagram.com/",
       pinterest: "https://pinterest.com/",
       twitter: "https://twitter.com/",
+      linkedin: "https://linkedin.com/"
     },
     locale: "en",
     title: `Mayur V A`,
